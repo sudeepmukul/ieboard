@@ -1,0 +1,53 @@
+
+> ie-board-website@0.0.0 lint
+> eslint .
+
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\AchievementsPreview.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\AuroraBackground.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\CustomCursor.jsx
+   2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                             no-unused-vars
+  46:8   warning  React Hook useEffect has a missing dependency: 'mouse'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\EventCard.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\GalleryGrid.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\Hero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\ImageCarousel.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\InteractiveText.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\Navbar.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\ParallaxWrapper.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\About.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Achievements.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Blogs.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Contact.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Events.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 16 problems (15 errors, 1 warning)
+

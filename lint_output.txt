@@ -1,0 +1,84 @@
+
+> ie-board-website@0.0.0 lint
+> eslint .
+
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\AchievementsPreview.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\AuroraBackground.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\CustomCursor.jsx
+   2:10  error    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                               no-unused-vars
+  18:11  error    'rotate' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                      no-unused-vars
+  19:15  error    'angle' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                       no-unused-vars
+  46:8   warning  React Hook useEffect has missing dependencies: 'mouse.x' and 'mouse.y'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\EventCard.jsx
+  3:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\GalleryGrid.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\Hero.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\ImageCarousel.jsx
+   2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          no-unused-vars
+  15:12  error  'direction' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              no-unused-vars
+  20:13  error  Error: Cannot access variable before it is declared
+
+`handleNext` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.
+
+  18 |     useEffect(() => {
+  19 |         const timer = setInterval(() => {
+> 20 |             handleNext();
+     |             ^^^^^^^^^^ `handleNext` accessed before it is declared
+  21 |         }, 5000);
+  22 |         return () => clearInterval(timer);
+  23 |     }, [currentIndex]);
+
+  23 |     }, [currentIndex]);
+  24 |
+> 25 |     const handleNext = () => {
+     |     ^^^^^^^^^^^^^^^^^^^^^^^^^^
+> 26 |         setDirection(1);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+> 27 |         setCurrentIndex((prev) => (prev + 1) % carouselImages.length);
+     | ^^^^^^^^^^^^^^^^^^^^^^^^
+> 28 |     };
+     | ^^^^^^^ `handleNext` is declared here
+  29 |
+  30 |     const handlePrev = () => {
+  31 |         setDirection(-1);  react-hooks/immutability
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\InteractiveText.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\Navbar.jsx
+  5:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\ParallaxWrapper.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\components\Scene3D.jsx
+  8:12  error  'hovered' is assigned a value but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\About.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Achievements.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Blogs.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Contact.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+C:\Users\Sudeep\OneDrive\Documents\TestWebsitesHere\ie-board-website\src\pages\Events.jsx
+  2:10  error  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  no-unused-vars
+
+Γ£û 21 problems (20 errors, 1 warning)
+
