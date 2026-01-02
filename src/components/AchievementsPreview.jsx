@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import { Trophy, Rocket, Users } from 'lucide-react';
 
 const achievements = [
-    { icon: Trophy, label: "Awards Won", value: "15+", color: "text-yellow-500", bg: "bg-yellow-500/20" },
-    { icon: Rocket, label: "Startups Launched", value: "30+", color: "text-primary", bg: "bg-primary/20" },
-    { icon: Users, label: "Active Members", value: "500+", color: "text-green-500", bg: "bg-green-500/20" },
+    { icon: Trophy, label: "WorkShops Conducted", value: "15+", color: "text-yellow-500", bg: "bg-yellow-500/20" },
+    { icon: Rocket, label: "Events Conducted", value: "30+", color: "text-primary", bg: "bg-primary/20" },
+    { icon: Users, label: "LearnWave Members Community", value: "2000+", color: "text-green-500", bg: "bg-green-500/20" },
 ];
 
 const AchievementsPreview = () => {

@@ -25,7 +25,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h3 className="text-white font-semibold mb-1">Email</h3>
-                                <p className="text-gray-400">contact@ieboard.edu</p>
+                                <p className="text-gray-400">ecell@cmrcet.ac.in</p>
                             </div>
                         </div>
 
@@ -34,8 +34,8 @@ const Contact = () => {
                                 <MapPin size={24} />
                             </div>
                             <div>
-                                <h3 className="text-white font-semibold mb-1">Office</h3>
-                                <p className="text-gray-400">Innovation Hub, Block C,<br />University Campus</p>
+                                <h3 className="text-white font-semibold mb-1">Head Quarters</h3>
+                                <p className="text-gray-400">Idea Lab Block 1,<br />CMRCET</p>
                             </div>
                         </div>
 
@@ -45,7 +45,7 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h3 className="text-white font-semibold mb-1">Phone</h3>
-                                <p className="text-gray-400">+1 (555) 123-4567</p>
+                                <p className="text-gray-400">+91 6942014367</p>
                             </div>
                         </div>
                     </div>

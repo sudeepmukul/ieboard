@@ -8,7 +8,7 @@ const blogs = [
         category: "Latest Innovation",
         title: "The Future of Quantum Computing in FinTech",
         excerpt: "Exploring how quantum supremacy could revolutionize high-frequency trading and encryption standards.",
-        author: "Sarah Jen",
+        author: "Prahasith. G",
         date: "Dec 18, 2024",
         readTime: "5 min read",
         image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3"
@@ -16,19 +16,19 @@ const blogs = [
     {
         id: 2,
         category: "Student Success",
-        title: "How Team 'Nova' Won the National Hackathon",
+        title: "How Krishna Koushik Won the IIT-B National Hackathon",
         excerpt: "A deep dive into their ideation process, tech stack choices, and the sleepless nights that led to victory.",
-        author: "Team Nova",
+        author: "Krishna Koushik",
         date: "Nov 30, 2024",
         readTime: "8 min read",
         image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3"
     },
     {
         id: 3,
-        category: "Tech Trends",
-        title: "Why Rust is Taking Over Web Assembly",
-        excerpt: "An analysis of performance metrics and safety features that make Rust the go-to for WASM.",
-        author: "Dev Club",
+        category: "Marketing Trends",
+        title: "How Zency Studios is Shaping Marketing in the Startup/Creator World",
+        excerpt: "An analysis of performance metrics and safety features that make Content go BOOM.",
+        author: "E-Club CMRCET",
         date: "Oct 25, 2024",
         readTime: "6 min read",
         image: "https://images.unsplash.com/photo-1555617981-d1a455f9K.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" // Corrected placeholder

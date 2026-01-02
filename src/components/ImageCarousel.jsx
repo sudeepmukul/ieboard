@@ -3,11 +3,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const carouselImages = [
-    { id: 1, src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-4.0.3", title: "Innovation Summits" },
-    { id: 2, src: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3", title: "Collaborative Workshops" },
-    { id: 3, src: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3", title: "Hackathons" },
-    { id: 4, src: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3", title: "Team Building" },
-    { id: 5, src: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?ixlib=rb-4.0.3", title: "Awards & Recognition" },
+    { id: 1, src: "https://lh3.googleusercontent.com/d/1a-Oy4vWYB_a73YfFd7w2O1VaZs2iiEu3", title: "Innovation Summits" },
+    { id: 2, src: "https://lh3.googleusercontent.com/d/1jl8DfFUziRfxAzr6Nv795J9MuXV_xK8R", title: "Collaborative Workshops" },
+    { id: 3, src: "https://lh3.googleusercontent.com/d/1fXTAiJr-uvftlqmpKamO8V-XKVRSLspF", title: "Hackathons" },
 ];
 
 const ImageCarousel = () => {
@@ -57,7 +55,7 @@ const ImageCarousel = () => {
                             animate={{ scale: 1, opacity: 1, x: 0, rotate: 0 }}
                             transition={{ type: "spring", stiffness: 300, damping: 30 }}
                         >
-                            <img src={img.src} alt={img.title} className="w-full h-full object-cover pointer-events-none" />
+                            <img src={img.src} alt={img.title} className="w-full h-full object-cover pointer-events-none" referrerPolicy="no-referrer" />
                             <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 to-transparent p-6 pointer-events-none">
                                 <h3 className="text-white font-bold text-xl">{img.title}</h3>
                             </div>
@@ -75,7 +73,7 @@ const ImageCarousel = () => {
                             animate={{ scale: 0.92, x: 30, rotate: 3, opacity: 0.8 }}
                             transition={{ type: "spring", stiffness: 300, damping: 30 }}
                         >
-                            <img src={img.src} alt={img.title} className="w-full h-full object-cover" />
+                            <img src={img.src} alt={img.title} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                         </motion.div>
                     );
                 }
@@ -90,7 +88,7 @@ const ImageCarousel = () => {
                             animate={{ scale: 0.84, x: 60, rotate: 6, opacity: 0.5 }}
                             transition={{ type: "spring", stiffness: 300, damping: 30 }}
                         >
-                            <img src={img.src} alt={img.title} className="w-full h-full object-cover" />
+                            <img src={img.src} alt={img.title} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                         </motion.div>
                     );
                 }
@@ -105,7 +103,7 @@ const ImageCarousel = () => {
                             animate={{ scale: 0.8, x: -100, rotate: -10, opacity: 0 }}
                             transition={{ duration: 0.5 }}
                         >
-                            <img src={img.src} alt={img.title} className="w-full h-full object-cover" />
+                            <img src={img.src} alt={img.title} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
                         </motion.div>
                     );
                 }

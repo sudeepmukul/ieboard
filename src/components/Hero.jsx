@@ -27,7 +27,7 @@ const Hero = () => {
                         transition={{ duration: 0.8, ease: "easeOut" }}
                     >
                         <span className="inline-block py-1 px-3 rounded-full bg-white/5 border border-white/10 text-primary text-sm font-semibold mb-6 tracking-wide">
-                            Welcome to the Future of Innovation
+                            Welcome to the CMRCET Innovation & Entrepreneurship Board
                         </span>
                         <h1 className="text-5xl md:text-7xl font-bold leading-tight tracking-tight text-white">
                             <InteractiveText text="Innovate." />
@@ -44,7 +44,8 @@ const Hero = () => {
                         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                         className="text-lg text-gray-400 max-w-lg leading-relaxed"
                     >
-                        The College Innovation & Entrepreneurship Board is the launchpad for your wildest ideas. We turn student concepts into market-ready startups.
+                        At CMRCET’s Innovation & Entrepreneurship Board, ideas don’t stay on paper.
+We empower students to build, test, and scale startups that matter.
                     </motion.p>
 
                     <motion.div

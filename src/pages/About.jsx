@@ -4,10 +4,10 @@ import { Linkedin, Github, Twitter, Target, Eye } from 'lucide-react';
 import ParallaxWrapper from '../components/ParallaxWrapper';
 
 const team = [
-    { name: "Alex Morgan", role: "President", img: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3" },
-    { name: "Sarah Chen", role: "Vice President", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3" },
-    { name: "James Wilson", role: "Tech Lead", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3" },
-    { name: "Emily Davis", role: "Design Head", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3" },
+    { name: "Tushar Cutie", role: "Head I&E", img: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3" },
+    { name: "Krishna Koushik", role: "E-Club President", img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3" },
+    { name: "Prahasith. G", role: "E-Cell head", img: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3" },
+    { name: "Achsah", role: "General Secretary", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3" },
 ];
 
 const About = () => {

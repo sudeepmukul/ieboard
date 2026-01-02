@@ -5,9 +5,9 @@ import { Trophy, TrendingUp, Users, Radio, Cpu } from 'lucide-react';
 const milestones = [
     {
         icon: <Users size={24} className="text-blue-400" />,
-        title: "E-Summit 2023",
-        stat: "500+ Attendees",
-        desc: "A massive gathering of students and entrepreneurs. Hosted 30+ startups and renowned speakers."
+        title: "E-Summit 2025",
+        stat: "600+ Attendees",
+        desc: "A massive gathering of students and entrepreneurs. Hosted 10+ startups and renowned speakers Including Ravi Kabra and Meeraj."
     },
     {
         icon: <Cpu size={24} className="text-purple-400" />,
@@ -17,15 +17,15 @@ const milestones = [
     },
     {
         icon: <TrendingUp size={24} className="text-green-400" />,
-        title: "Startups Incubated",
-        stat: "$50K+ Raised",
-        desc: "Facilitated seed funding and mentorship for 5 student-led startups in the last year."
+        title: "Events Conducted",
+        stat: "30+ Events Including 2 Flag-ships",
+        desc: "We have successfully conducted a range of events to promote innovation and entrepreneurship among students."
     },
     {
         icon: <Radio size={24} className="text-red-400" />,
-        title: "E-Summit 2025",
+        title: "E-Summit 2026",
         stat: "Upcoming Mega Event",
-        desc: "The Future of GenAI. Preparing for our biggest event yet with global participation."
+        desc: "The Future of AI. Preparing for our biggest event yet with global participation."
     }
 ];
 

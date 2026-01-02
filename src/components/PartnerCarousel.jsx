@@ -1,8 +1,8 @@
 import React from 'react';
 
 const partners = [
-    "Microsoft", "Google for Startups", "Notion", "Figma", "AWS", "Vercel", "OpenAI",
-    "Github", "Stripe", "Y Combinator", "TechCrunch", "DigitalOcean"
+    "Student Tribe", "Google Developers Group", "AWS", "Zency", "Edventure", "EXpert", "Draper",
+    "Curve", "IIC"
 ];
 
 const PartnerCarousel = () => {

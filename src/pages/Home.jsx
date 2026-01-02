@@ -23,9 +23,9 @@ const Home = () => {
 
                 <div className="grid md:grid-cols-3 gap-8">
                     {[
-                        { title: "Mentorship", desc: "Get guided by industry experts and alumni." },
+                        { title: "E-Cell Mentorship", desc: "Get guided by industry experts and alumni." },
                         { title: "Funding", desc: "Pitch deck preparation and seed funding opportunities." },
-                        { title: "Networking", desc: "Connect with like-minded innovators and founders." }
+                        { title: "E-Club Networking", desc: "Connect with like-minded innovators and founders." }
                     ].map((item, i) => (
                         <div key={i} className="p-8 rounded-2xl bg-white/5 border border-white/10 hover:border-primary/50 transition-colors">
                             <h3 className="text-2xl font-bold text-white mb-3">{item.title}</h3>
