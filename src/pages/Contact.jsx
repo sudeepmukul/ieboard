@@ -1,10 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Mail, MapPin, Phone, Send, Linkedin, Twitter, Instagram } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const Contact = () => {
     return (
         <div className="min-h-screen py-20 px-6 lg:px-8 max-w-7xl mx-auto flex items-center">
+            <SEO
+                title="Contact Us"
+                description="Get in touch with the IE Board team. We'd love to hear from you."
+            />
             <div className="grid lg:grid-cols-2 gap-16 w-full">
                 {/* Contact Info */}
                 <motion.div

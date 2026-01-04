@@ -2,10 +2,15 @@ import React from 'react';
 import Hero from '../components/Hero';
 import PartnerCarousel from '../components/PartnerCarousel';
 import AchievementsPreview from '../components/AchievementsPreview';
+import SEO from '../components/SEO';
 
 const Home = () => {
     return (
         <div className="min-h-screen relative">
+            <SEO
+                title="Home"
+                description="Welcome to the Official IE Board Website. Incubate your ideas and transform them into reality."
+            />
             <Hero />
             <PartnerCarousel />
 

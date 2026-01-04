@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import EventCard from '../components/EventCard';
 import clsx from 'clsx';
+import SEO from '../components/SEO';
 
 const eventsData = [
     {
@@ -57,6 +58,10 @@ const Events = () => {
 
     return (
         <div className="min-h-screen py-20 px-6 lg:px-8 max-w-7xl mx-auto">
+            <SEO
+                title="Events & Workshops"
+                description="Join our hackathons, bootcamps, and seminars to learn and network."
+            />
             <div className="text-center mb-16">
                 <motion.h1
                     initial={{ opacity: 0, y: -20 }}

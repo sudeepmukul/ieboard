@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, User, Calendar, Clock } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const blogs = [
     {
@@ -38,6 +39,10 @@ const blogs = [
 const Blogs = () => {
     return (
         <div className="min-h-screen py-20 px-6 lg:px-8 max-w-7xl mx-auto">
+            <SEO
+                title="Blogs & Insights"
+                description="Read stories of innovation, student success, and latest tech trends."
+            />
             <div className="text-center mb-16">
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
                     Insights & Stories

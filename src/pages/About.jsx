@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Linkedin, Github, Twitter, Target, Eye } from 'lucide-react';
 import ParallaxWrapper from '../components/ParallaxWrapper';
+import SEO from '../components/SEO';
 
 const team = [
     { name: "Tushar Cutie", role: "Head I&E", img: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3" },
@@ -13,6 +14,10 @@ const team = [
 const About = () => {
     return (
         <div className="min-h-screen py-20 px-6 lg:px-8 max-w-7xl mx-auto">
+            <SEO
+                title="About Us"
+                description="We are a student-run organization fostering innovation and entrepreneurship at CMRCET."
+            />
             {/* Intro */}
             <div className="text-center mb-24">
                 <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About the Board</h1>

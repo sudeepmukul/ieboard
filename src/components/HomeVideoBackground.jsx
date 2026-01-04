@@ -23,7 +23,7 @@ const HomeVideoBackground = () => {
                             playerVars: { showinfo: 0, controls: 0, disablekb: 1, modestbranding: 1, rel: 0, iv_load_policy: 3, fs: 0, origin: window.location.origin }
                         }
                     }}
-                    style={{ opacity: 0.6 }} // Increased visibility & Brought to front
+                    style={{ opacity: 1 }} // Increased visibility & Brought to front
                 />
             </div>
 

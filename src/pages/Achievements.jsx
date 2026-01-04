@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Trophy, TrendingUp, Users, Radio, Cpu } from 'lucide-react';
+import SEO from '../components/SEO';
 
 const milestones = [
     {
@@ -32,6 +33,10 @@ const milestones = [
 const Achievements = () => {
     return (
         <div className="min-h-screen py-20 px-6 lg:px-8 max-w-7xl mx-auto">
+            <SEO
+                title="Achievements"
+                description="Our milestones, successful events, and the impact we've created in the student community."
+            />
             {/* Motto */}
             <div className="text-center mb-24">
                 <motion.div
